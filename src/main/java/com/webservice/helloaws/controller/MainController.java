@@ -11,4 +11,10 @@ public class MainController {
     public String helloWorld() {
         return "Hello World";
     }
+
+    @GetMapping("/demo")
+    public String demoController(){
+        return "Demo controller";
+    }
+
 }
