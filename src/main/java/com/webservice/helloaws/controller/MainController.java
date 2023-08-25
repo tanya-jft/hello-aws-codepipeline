@@ -17,4 +17,8 @@ public class MainController {
         return "Demo controller";
     }
 
+    public String errorFunc(){
+        return ;
+    }
+
 }
